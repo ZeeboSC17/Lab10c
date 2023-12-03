@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Bulma Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="hero is-primary is-bold">
+        <div class="hero-body has-text-centered">
+            <h1 class="title is-1">Bulma ● CSS Framework ● Lab 10c</h1>
+            <p class="subtitle is-4">Sakib Chowdhury</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="columns is-centered">
+            <div class="column is-one-half">
+                <div class="box">
+                    <p class="title is-3">How I Installed the Framework</p>
+                    <p>I linked the Bulma framework to my webpage by by connecting to the CDN
+                        provided by jsDelivr. To integrate Bulma's styles into my HTML document, I added a link tag
+                        in the head section. This tag references the Bulma CSS file hosted on the CDN, allowing my
+                        webpage to access and use Bulma's predefined CSS classes for styling.
+                    </p>
+                </div>
+            </div>
+            <div class="column is-one-half">
+                <div class="box">
+                    <p class="title is-3">How I Built the Page</p>
+                    <p>The page was structured using Bulma's predefined classes. I utilized Bulma's grid
+                        system and
+                        components like hero, section, columns, and box to create the layout. The hero class was used
+                        for the header section, providing a prominent title and subtitle. The columns class helped
+                        divide the content into three distinct sections, each represented by a column with a box for
+                        clear
+                        separation and styling.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class=" box">
+                <p class="title is-3">Challenges</p>
+                <p>One of the issues I encountered was dealing with formatting using custom CSS and Bulma at the same
+                    time. For some reason, that was causing things to be formatted very awkwardly and not the way I
+                    wanted, so I opted to entirely remove the custom CSS and do all styling through Bulma. </p>
+                <p>Another issue was setting font-sizes. In Bulma, setting a certain classes to be "is-*" changes the
+                    font size. I assumed the higher the number, the larger the font, but it is actually the opposite.
+                    Also, there was another option called is-large, but it wasn't working on all my elements. </p>
+                <p>So to resolve my confusionby reading the documentation provided by Bulma to get a better
+                    understanding of what their classes do. </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
